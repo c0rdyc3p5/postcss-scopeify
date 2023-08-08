@@ -1,6 +1,6 @@
 {
   "name": "postcss-scoper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A postcss plugin to add a scope before every rule",
   "main": "src/postcss-scoper.js",
   "author": "Kevin Cadorette",
