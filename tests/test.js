@@ -1,6 +1,6 @@
-import postcss from "postcss";
-import postcssScopeify from "../src/postcss-scopeify.js";
-import * as fs from "fs";
+const postcss = require('postcss');
+const postcssScopeify = require('../src/postcss-scopeify');
+const fs = require('fs');
 
 const css = fs.readFileSync("./tests/test.css", "utf8");
 

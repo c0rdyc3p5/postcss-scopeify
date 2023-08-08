@@ -1,7 +1,7 @@
 /**
  * @type {import('postcss').PluginCreator}
  */
-const postcssScopeify = (opts = {}) => {
+module.exports = (opts = {}) => {
     if (!opts.scope) {
         throw new Error('You must provide a "scope" option to postcss-scopeify');
     }
@@ -23,6 +23,4 @@ const postcssScopeify = (opts = {}) => {
     };
 };
 
-postcssScopeify.postcss = true;
-
-export default postcssScopeify;
+module.exports.postcss = true;

@@ -1,6 +1,6 @@
 {
   "name": "postcss-scopeify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A postcss plugin to add a scope before every rule",
   "main": "src/postcss-scopeify.js",
   "author": "Kevin Cadorette",
@@ -29,7 +29,6 @@
     "scopeify"
   ],
   "repository": "https://github.com/c0rdyc3p5/postcss-scopeify.git",
-  "type": "module",
   "dependencies": {
     "postcss": "^8.4.27"
   }
