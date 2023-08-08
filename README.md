@@ -17,7 +17,7 @@ npm run test
 ```
 
 ## Usage
-To use PostCSS-Scopeify, you'll need to set up PostCSS in your project. Create a `postcss.config.js file in the root of your project and add postcss-scopeify to the plugins list.
+To use PostCSS-Scopeify, you'll need to set up PostCSS in your project. Create a `postcss.config.js` file in the root of your project and add postcss-scopeify to the plugins list.
 
 Here's a basic example of how to use PostCSS-Scopeify:
 ```javascript
