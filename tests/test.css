@@ -1,0 +1,46 @@
+h1 {
+    color: red;
+    background: beige;
+    font-size: 20px;
+}
+
+h2 {
+    color: blue;
+    background: yellow;
+    font-size: 15px;
+}
+
+:root {
+    --color: red;
+}
+
+.ignore-me {
+    color: green;
+}
+
+button {
+    color: var(--color);
+}
+
+button:hover {
+    color: green;
+}
+
+.header .nav .link {
+    color: #333;
+}
+
+@media screen and (max-width: 1240px) {
+    .container {
+        width: 100%;
+    }
+
+    .container .item {
+        width: 100%;
+    }
+
+    .container .item .item-content {
+        width: 100%;
+    }
+}
+
