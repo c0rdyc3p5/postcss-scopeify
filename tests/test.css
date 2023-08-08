@@ -30,6 +30,12 @@ button:hover {
     color: #333;
 }
 
+p,
+span,
+div {
+    background-color: #fff;
+}
+
 @media screen and (max-width: 1240px) {
     .container {
         width: 100%;
