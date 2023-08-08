@@ -1,13 +1,13 @@
-# PostCSS-Scoper
+# PostCSS-Scopeify
 
-PostCSS-Scoper is a PostCSS plugin that allows you to scope CSS selectors with a specified prefix, ensuring style isolation and modularity. Prevent selector conflicts and improve maintainability of your CSS with this powerful tool!
+PostCSS-Scopeify is a PostCSS plugin that allows you to scope CSS selectors with a specified prefix, ensuring style isolation and modularity. Prevent selector conflicts and improve maintainability of your CSS with this powerful tool!
 
 ## Installation
 
-To use PostCSS-Scoper, first install it via npm or yarn:
+To use PostCSS-Scopeify, first install it via npm or yarn:
 
 ```bash
-npm install postcss postcss-scoper --save-dev
+npm install postcss postcss-scopeify --save-dev
 ```
 
 ## Testing
@@ -17,15 +17,15 @@ npm run test
 ```
 
 ## Usage
-To use PostCSS-Scoper, you'll need to set up PostCSS in your project. Create a `postcss.config.js file in the root of your project and add postcss-scoper to the plugins list.
+To use PostCSS-Scopeify, you'll need to set up PostCSS in your project. Create a `postcss.config.js file in the root of your project and add postcss-scopeify to the plugins list.
 
-Here's a basic example of how to use PostCSS-Scoper:
+Here's a basic example of how to use PostCSS-Scopeify:
 ```javascript
 // postcss.config.js
 module.exports = {
     plugins: [
         // Nesting/Import/StylesLibrary PostCSS plugins here...
-        require('postcss-scoper')({
+        require('postcss-scopeify')({
             scope: '.my-scoped-rule ', // Set the prefix for scoping
             exclude: [':root', '.ignore-me'], // Optional: Exclude selectors from scoping
         }),
@@ -39,7 +39,7 @@ OR
 module.exports = {
     plugins: {
         // Nesting/Import/StylesLibrary PostCSS plugins here...
-        "postcss-scoper": {
+        "postcss-scopeify": {
             scope: '.my-scoped-rule ', // Set the prefix for scoping
             exclude: [':root', '.ignore-me'], // Optional: Exclude selectors from scoping
         },
@@ -166,4 +166,4 @@ module.exports = {
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to create an issue or submit a pull request.
 
 ## License
-This project is licensed under the [MIT License](https://github.com/c0rdyc3p5/postcss-scoper/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/c0rdyc3p5/postcss-scopeify/blob/main/LICENSE).

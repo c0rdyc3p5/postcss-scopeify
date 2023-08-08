@@ -1,15 +1,15 @@
 /**
  * @type {import('postcss').PluginCreator}
  */
-const postcssScoper = (opts = {}) => {
+const postcssScopeify = (opts = {}) => {
     if (!opts.scope) {
-        throw new Error('You must provide a "scope" option to postcss-scoper');
+        throw new Error('You must provide a "scope" option to postcss-scopeify');
     }
 
     const exclude = opts.exclude || [];
 
     return {
-        postcssPlugin: 'postcss-scoper',
+        postcssPlugin: 'postcss-scopeify',
         Root(root) {
             root.walkRules((rule) => {
                 const selector = rule.selector;
@@ -23,6 +23,6 @@ const postcssScoper = (opts = {}) => {
     };
 };
 
-postcssScoper.postcss = true;
+postcssScopeify.postcss = true;
 
-export default postcssScoper;
+export default postcssScopeify;

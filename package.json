@@ -1,8 +1,8 @@
 {
-  "name": "postcss-scoper",
-  "version": "1.0.1",
+  "name": "postcss-scopeify",
+  "version": "1.0.2",
   "description": "A postcss plugin to add a scope before every rule",
-  "main": "src/postcss-scoper.js",
+  "main": "src/postcss-scopeify.js",
   "author": "Kevin Cadorette",
   "license": "MIT",
   "private": false,
@@ -16,13 +16,19 @@
     "node modules",
     "npm",
     "scope",
+    "scoper",
     "scoped",
     "pcss",
     "postcss-scoper",
-    "postcss scoper",
-    "postcss plugin"
+    "postcss-scoper",
+    "postcss scoped",
+    "postcss-scoped",
+    "postcss plugin",
+    "postcss-scopeify",
+    "postcss scopeify",
+    "scopeify"
   ],
-  "repository": "https://github.com/c0rdyc3p5/postcss-scoper.git",
+  "repository": "https://github.com/c0rdyc3p5/postcss-scopeify.git",
   "type": "module",
   "dependencies": {
     "postcss": "^8.4.27"
